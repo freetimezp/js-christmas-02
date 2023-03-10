@@ -529,6 +529,74 @@ section {
 }
 /* contact end */
 
+/* blogs */
+.blogs .box-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(31rem, 1fr));
+    gap: 2rem;
+}
+
+.blogs .box-container .box {
+    text-align: center;
+}
+
+.blogs .box-container .box:hover img {
+    transform: scale(1.1);
+}
+
+.blogs .box-container .box .images {
+    height: 25rem;
+    overflow: hidden;
+}
+
+.blogs .box-container .box .images img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.blogs .box-container .box .content {
+    padding-top: 2rem;
+}
+
+.blogs .box-container .box .content h3 {
+    font-size: 2rem;
+    color: var(--white);
+    text-transform: capitalize;
+}
+
+.blogs .box-container .box .content p {
+    font-size: 1.6rem;
+    color: var(--light-color);
+    line-height: 2;
+    padding: 1rem 2rem;
+}
+
+.blogs .box-container .box .content .icons {
+    display: flex;
+    align-self: center;
+    justify-content: space-between;
+    padding: 2rem;
+    background-color: var(--light-bg);
+    margin-top: 15px;
+}
+
+.blogs .box-container .box .content .icons a {
+    font-size: 1.6rem;
+    color: var(--white);
+}
+
+.blogs .box-container .box .content .icons a i {
+    color: var(--blue);
+    padding-right: 0.5rem;
+}
+
+.blogs .box-container .box .content .icons a:hover {
+    color: var(--blue);
+}
+/* blogs end */
+
+
 
 /* media */
 @media (max-width: 1200px) {
